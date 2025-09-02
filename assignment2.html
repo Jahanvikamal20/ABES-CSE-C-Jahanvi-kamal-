@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+    .navbar {
+        
+        width: 100%;
+    }
+    .navbar table {
+        width: 100%;
+       background-color: lightblue;
+       height: 60px;
+    }
+    .form{
+        background-color: white;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 100%;
+    }
+    /* Bus Image */
+    .bus-image {
+      width: 45%;
+    }
+
+    .bus-image img {
+      width: 70%;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      margin-top: 40px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    </style>
+</head>
+<body>
+     <div class="navbar">
+        <table>
+            <tr>
+             <h1> <th>bus seat book</th> </h1>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="a">
+        <center>
+       <h2> <p> welcome to Bus booking system</p> </center> </h2>
+    </div>
+    <table>
+     <form class="form" >
+        <label for="name"> User Detail  </label><br>
+        <label for="name">User name</label>
+
+        <input type="text"> <br>
+        <label for="name">user passwaord</label>
+        <input type="password">
+
+        <!--radio-->
+        <br>
+        <label >user Gender</label><br>
+        <input type="radio" id="html" name="jk" value="html1">
+        <label >Male</label><br>
+        <input type="radio" id="html" name="jk" value="html1">
+        <label >female</label><br>
+        <input type="radio" id="html" name="jk" value="html1">
+        <label >other</label>
+
+         <br>
+        <!--select-->
+        <label>select your city</label>
+        <select>
+            <option>Meerut</option>   
+         <option>farrukhabad</option>   
+         <option>Ghaziabad</option>      
+          </select>
+          <br>
+
+            <button style="color: rgb(224, 175, 103);">Seat book</button>
+          <div class="bus-image">
+      <img src="https://th.bing.com/th/id/OIP.-d8gW-bevpve4ESL0Ijf5gHaE8?w=254&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Bus Image">
+    </div>
+     </form>
+     </table>
+</body>
+</html>
